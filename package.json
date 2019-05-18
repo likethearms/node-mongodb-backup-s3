@@ -1,0 +1,25 @@
+{
+  "name": "node-mongodb-backup-s3",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Henrik Salmela <henrik.salmela@gmail.com>",
+  "repository": "github:flaviocopes/testing",
+  "contributors": [
+    "Henrik Salmela <henrik.salmela@gmail.com>"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.0.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.458.0",
+    "moment": "^2.24.0",
+    "mongodb-uri": "^0.9.7",
+    "typescript": "^3.4.5"
+  }
+}
